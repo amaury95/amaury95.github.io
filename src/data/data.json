@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "name": "Amaury Diaz",
+    "image": "profile.png",
+    "profession": "Frontend Developer",
+    "info": {
+      "email": "amauryuh@gmail.com",
+      "phone": "+53 54754788",
+      "location": "Havana, Cuba"
+    }
+  },
+  "templates": {
+    "react-developer": {
+      "title":"React Developer"
+    }
+  }
+}
