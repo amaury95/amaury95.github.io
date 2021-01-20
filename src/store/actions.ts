@@ -1,4 +1,3 @@
-import { Color } from "@material-ui/lab/Alert";
 import { Data } from "./types";
 
 // Action interface

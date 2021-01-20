@@ -3,8 +3,8 @@ import React, { FunctionComponent } from "react";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(7),
-    height: theme.spacing(7),
+    width: theme.spacing(6.5),
+    height: theme.spacing(6.5),
   },
 }));
 
@@ -20,7 +20,7 @@ const IconTitle: FunctionComponent<Props> = (props) => {
         <Avatar className={classes.avatar}>{props.children}</Avatar>
       </Grid>
       <Grid item>
-        <Typography variant="h4">{props.text}</Typography>
+        <Typography variant="h5">{props.text}</Typography>
       </Grid>
     </Grid>
   );

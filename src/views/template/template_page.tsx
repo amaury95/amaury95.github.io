@@ -1,26 +1,24 @@
-import { Box, Container, Grid } from "@material-ui/core";
+import { Box, Container, Grid, makeStyles } from "@material-ui/core";
 import Contact from "./components/contact";
 import Header from "./components/header";
 import Skills from "./components/skills";
 import TimeLine from "./components/timeline";
 
-export const TemplatePage = () => {
-  return (
-    <Box mx={10} my={10}>
-      <Container style={{ backgroundColor: "green" }}>
-        <Grid container>
-          <Grid item xs={12} md={8} style={{ backgroundColor: "blue" }}>
-            <Header />
-            <TimeLine />
-          </Grid>
-          <Grid item xs={12} md={4} style={{ backgroundColor: "red" }}>
-            <Contact />
-            <Skills />
-          </Grid>
+export const TemplatePage = () => (
+  <Box mx={10} my={10}>
+    <Container>
+      <Grid container>
+        <Grid item xs={12} md={8} justify="flex-start">
+          <Header />
+          <TimeLine />
         </Grid>
-      </Container>
-    </Box>
-  );
-};
+        <Grid item xs={12} md={4}>
+          <Contact />
+          <Skills />
+        </Grid>
+      </Grid>
+    </Container>
+  </Box>
+);
 
 export default TemplatePage;

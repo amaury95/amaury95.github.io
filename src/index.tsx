@@ -8,8 +8,11 @@ import StoreProvider, { Store } from "store";
 import { SetData } from "store/actions";
 import data from "data/data.json";
 
+import "rsuite/dist/styles/rsuite-default.css";
+import "index.css";
+
 const App = () => {
-  const { state, dispatch } = useContext(Store);
+  const { dispatch } = useContext(Store);
 
   useEffect(() => {
     dispatch(SetData(data));
