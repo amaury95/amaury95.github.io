@@ -21,7 +21,7 @@ export default function Header() {
       </Grid>
       <Grid>
         <Typography variant="h2">{profile.name}</Typography>
-        <Typography variant="h4">{template.title}</Typography>
+        <Typography variant="h4">{template.profession}</Typography>
       </Grid>
     </Grid>
   );

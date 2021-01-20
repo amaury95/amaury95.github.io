@@ -1,5 +1,14 @@
 import { Action } from "./actions";
 
+export interface Education {
+  from: string;
+  to: string;
+  title: string;
+  center: string;
+  location: string;
+  description: string;
+}
+
 export interface Data {
   profile: {
     name: string;
@@ -13,7 +22,9 @@ export interface Data {
   };
   templates: {
     [template: string]: {
-      title: string;
+      profession: string;
+      summary: string;
+      titles: Education[];
     };
   };
 }

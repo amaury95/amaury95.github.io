@@ -11,7 +11,18 @@
   },
   "templates": {
     "react-developer": {
-      "title":"React Developer"
+      "profession": "React Developer",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic voluptate error eos, consectetur voluptatum atque perferendis aperiam aliquid deleniti ab nihil dolor reiciendis sapiente quod debitis, labore autem excepturi!",
+      "titles": [
+        {
+          "from": "September 2014",
+          "to": "June 2019",
+          "center": "University of Havana",
+          "location": "Havana, Cuba",
+          "title": "Bsc Computer Science",
+          "description": ""
+        }
+      ]
     }
   }
 }
