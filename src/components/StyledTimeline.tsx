@@ -4,12 +4,15 @@ import { Timeline } from "rsuite";
 const StyledTimeline = styled(Timeline)(({ theme }) => ({
   marginTop: 50,
   "& .rs-timeline-item-dot::before": {
-    backgroundColor: theme.palette.primary.light,
+    backgroundColor: theme.palette.primary.main,
+  },
+  "& .rs-timeline-item-tail": {
+    backgroundColor: theme.palette.secondary.main,
   },
   "& .rs-timeline-item-custom-dot .rs-icon": {
     borderWidth: 2,
     borderStyle: "solid",
-    color: theme.palette.primary.light,
+    color: theme.palette.primary.main,
     background: theme.palette.background.default,
     top: 0,
     left: -2,

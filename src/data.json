@@ -29,8 +29,23 @@
           "location": "Havana, Cuba",
           "from": "September 2014",
           "to": "June 2019",
-          "description": "",
-          "details": ["detail 1", "detail 2"]
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic voluptate error eos, consectetur voluptatum atque perferendis aperiam aliquid deleniti ab nihil dolor reiciendis sapiente quod debitis, labore autem excepturi!",
+          "details": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Minima hic voluptate error eos, consectetur voluptatum."
+          ]
+        },
+        {
+          "title": "React Developer",
+          "center": "University of Havana",
+          "location": "Havana, Cuba",
+          "from": "September 2014",
+          "to": "June 2019",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic voluptate error eos, consectetur voluptatum atque perferendis aperiam aliquid deleniti ab nihil dolor reiciendis sapiente quod debitis, labore autem excepturi!",
+          "details": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Minima hic voluptate error eos, consectetur voluptatum."
+          ]
         }
       ]
     }
