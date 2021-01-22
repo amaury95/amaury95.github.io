@@ -51,7 +51,19 @@
             "Minima hic voluptate error eos, consectetur voluptatum."
           ]
         }
-      ]
+      ],
+      "skills": {
+        "Frameworks": [
+          { "name": "React Js", "level": 1 },
+          { "name": "Typescript", "level": 0.5 },
+          { "name": "Node Js", "level": 0.7 }
+        ],
+        "Tools": [
+          { "name": "React Js", "level": 1 },
+          { "name": "Typescript", "level": 0.5 },
+          { "name": "Node Js", "level": 0.7 }
+        ]
+      }
     }
   }
 }

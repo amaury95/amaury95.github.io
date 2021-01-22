@@ -88,6 +88,7 @@ const TimeLine = () => {
           </Timeline.Item>
         ))}
       </StyledTimeline>
+      <br />
     </Container>
   );
 };

@@ -1,28 +1,25 @@
 import IconTitle from "components/IconTitle";
 import React, { FunctionComponent } from "react";
 import PersonRoundedIcon from "@material-ui/icons/PersonRounded";
-import { Typography, Link } from "@material-ui/core";
+import { Typography, Link, Box } from "@material-ui/core";
 import useData from "hooks/useData";
+import TitledContent from "components/TitledContent";
 
 const Title: FunctionComponent = (props) => (
   <Typography variant="subtitle1">{props.children}</Typography>
 );
 
 const Content: FunctionComponent = (props) => (
-  <Typography gutterBottom variant="subtitle2">
-    {props.children}
-  </Typography>
+  <Typography variant="subtitle2">{props.children}</Typography>
 );
 
 export default function Contact() {
   const { profile } = useData();
   return (
-    <>
-      <IconTitle text="Contact">
-        <PersonRoundedIcon fontSize="large" />
-      </IconTitle>
-      <br />
-
+    <TitledContent
+      title="Contact"
+      icon={<PersonRoundedIcon fontSize="large" />}
+    >
       <Title>Location</Title>
       <Content>{profile.info.location}</Content>
 
@@ -39,6 +36,6 @@ export default function Contact() {
       <Link href={profile.info.website.ref} target="_blank" rel="noreferrer">
         <Content>{profile.info.website.title}</Content>
       </Link>
-    </>
+    </TitledContent>
   );
 }

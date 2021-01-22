@@ -19,6 +19,11 @@ export interface Job {
   details: string[];
 }
 
+export interface Skill {
+  name: string;
+  level: number;
+}
+
 export interface Data {
   profile: {
     name: string;
@@ -39,7 +44,9 @@ export interface Data {
       summary: string;
       titles: Education[];
       experience: Job[];
-      // skills: Skill[];
+      skills: {
+        [field: string]: Skill[];
+      };
     };
   };
 }

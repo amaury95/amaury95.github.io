@@ -1,4 +1,4 @@
-import { Box, Container, Grid, makeStyles } from "@material-ui/core";
+import { Box, Container, Grid } from "@material-ui/core";
 import Contact from "./components/contact";
 import Header from "./components/header";
 import Skills from "./components/skills";
@@ -14,6 +14,7 @@ export const TemplatePage = () => (
         </Grid>
         <Grid item xs={12} md={4}>
           <Contact />
+          <br />
           <br />
           <Skills />
         </Grid>
