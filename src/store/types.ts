@@ -27,6 +27,10 @@ export interface Data {
       email: string;
       phone: string;
       location: string;
+      website: {
+        title: string;
+        ref: string;
+      };
     };
   };
   templates: {

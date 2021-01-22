@@ -14,6 +14,7 @@ export const TemplatePage = () => (
         </Grid>
         <Grid item xs={12} md={4}>
           <Contact />
+          <br />
           <Skills />
         </Grid>
       </Grid>

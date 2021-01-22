@@ -5,7 +5,11 @@
     "info": {
       "email": "amauryuh@gmail.com",
       "phone": "+53 54754788",
-      "location": "Havana, Cuba"
+      "location": "Havana, Cuba",
+      "website": {
+        "title": "amaury95.github.io",
+        "ref": "https://amaury95.github.io"
+      }
     }
   },
   "templates": {
