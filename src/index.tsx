@@ -1,23 +1,15 @@
 import { CssBaseline, MuiThemeProvider } from "@material-ui/core";
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 import defaultTheme from "themes/default";
 import Routes from "routes";
-import StoreProvider, { Store } from "store";
-import { SetData } from "store/actions";
-import data from "data/data.json";
+import StoreProvider from "store";
 
 import "rsuite/dist/styles/rsuite-default.css";
 import "index.css";
 
 const App = () => {
-  const { dispatch } = useContext(Store);
-
-  useEffect(() => {
-    dispatch(SetData(data));
-  }, []);
-
   return (
     <MuiThemeProvider theme={defaultTheme}>
       <CssBaseline />

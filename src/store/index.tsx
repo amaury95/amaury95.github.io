@@ -1,7 +1,7 @@
 import React from "react";
 import { State, StoreType } from "./types";
 import { reducer } from "./reducer";
-import data from "data/data.json";
+import data from "data.json";
 
 const initialState = {
   theme: "dark",

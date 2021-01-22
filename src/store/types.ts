@@ -9,10 +9,19 @@ export interface Education {
   description: string;
 }
 
+export interface Job {
+  title: string;
+  center: string;
+  location: string;
+  from: string;
+  to: string;
+  description: string;
+  details: string[];
+}
+
 export interface Data {
   profile: {
     name: string;
-    profession: string;
     image: string;
     info: {
       email: string;
@@ -25,6 +34,8 @@ export interface Data {
       profession: string;
       summary: string;
       titles: Education[];
+      experience: Job[];
+      // skills: Skill[];
     };
   };
 }

@@ -26,7 +26,7 @@ const EducationTag = ({ item: title }: ItemProps<Title>) => (
       {title.center} - {title.location}
     </Typography>
     <Typography variant="caption" component="span">
-      ({title.from} - {title.to})
+      {title.from} - {title.to}
     </Typography>
 
     <Typography>{title.description}</Typography>
