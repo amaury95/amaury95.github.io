@@ -1,7 +1,6 @@
-import IconTitle from "components/IconTitle";
 import React, { FunctionComponent } from "react";
 import PersonRoundedIcon from "@material-ui/icons/PersonRounded";
-import { Typography, Link, Box } from "@material-ui/core";
+import { Typography, Link } from "@material-ui/core";
 import useData from "hooks/useData";
 import TitledContent from "components/TitledContent";
 
