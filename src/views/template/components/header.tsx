@@ -1,7 +1,6 @@
 import { Avatar, Grid, makeStyles, Typography } from "@material-ui/core";
 import useData from "hooks/useData";
-import React, { useContext } from "react";
-import { Store } from "store";
+import React from "react";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -17,7 +16,11 @@ export default function Header() {
   return (
     <Grid container alignItems="center" justify="flex-start" spacing={8}>
       <Grid item>
-        <Avatar alt={profile.name} src={profile.image} className={classes.avatar} />
+        <Avatar
+          alt={profile.name}
+          src={profile.image}
+          className={classes.avatar}
+        />
       </Grid>
       <Grid>
         <Typography variant="h2">{profile.name}</Typography>
