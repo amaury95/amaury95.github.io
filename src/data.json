@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Amaury Diaz",
-    "image": "profile.png",
+    "image": "/picture.jpg",
     "info": {
       "email": "amauryuh@gmail.com",
       "phone": "+53 54754788",
@@ -54,8 +54,8 @@
       ],
       "skills": {
         "Frameworks": [
-          { "name": "React Js", "level": 1 },
-          { "name": "Typescript", "level": 0.5 },
+          { "name": "React Js", "level": 0.98 },
+          { "name": "Typescript", "level": 0.9 },
           { "name": "Node Js", "level": 0.7 }
         ],
         "Tools": [

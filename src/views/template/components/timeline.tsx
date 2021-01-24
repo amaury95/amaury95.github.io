@@ -22,33 +22,34 @@ interface ItemProps<T> {
 const EducationTag = ({ item: title }: ItemProps<Title>) => (
   <>
     <Typography variant="subtitle1">{title.title}</Typography>
-    <Typography variant="subtitle2">
+    <Typography variant="body1">
       {title.center} - {title.location}
     </Typography>
-    <Typography variant="caption" component="span">
+    <Typography variant="caption" paragraph>
       {title.from} - {title.to}
     </Typography>
+    <br />
 
-    <Typography>{title.description}</Typography>
+    <Typography variant="body2">{title.description}</Typography>
   </>
 );
 
 const ExperienceTag = ({ item: experience }: ItemProps<Job>) => (
   <>
     <Typography variant="subtitle1">{experience.title}</Typography>
-    <Typography variant="subtitle2">
+    <Typography variant="body1">
       {experience.center} - {experience.location}
     </Typography>
-    <Typography variant="caption" component="span">
+    <Typography variant="caption" paragraph>
       {experience.from} - {experience.to}
     </Typography>
 
-    <Typography>{experience.description}</Typography>
+    <Typography variant="body2">{experience.description}</Typography>
 
     <List>
       {experience.details.map((d, k) => (
         <li key={k}>
-          <Typography>{d}</Typography>
+          <Typography variant="body2">{d}</Typography>
         </li>
       ))}
     </List>
@@ -64,7 +65,9 @@ const TimeLine = () => {
         <TitleTag icon={<Icon icon="target" size="2x" />}>
           Professional Summary
         </TitleTag>
-        <Timeline.Item>{template.summary}</Timeline.Item>
+        <Timeline.Item>
+          <Typography variant="body2">{template.summary}</Typography>
+        </Timeline.Item>
 
         {template.experience.length > 0 && (
           <TitleTag icon={<Icon icon="briefcase" size="2x" />}>

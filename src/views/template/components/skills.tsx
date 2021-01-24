@@ -26,10 +26,10 @@ export default function Skills() {
                   justify="flex-start"
                   alignItems="center"
                 >
-                  <Grid item xs={3}>
+                  <Grid item xs={4}>
                     <Typography variant="subtitle2">{s.name}</Typography>
                   </Grid>
-                  <Grid item xs={9}>
+                  <Grid item xs={8}>
                     <LinearProgress
                       variant="determinate"
                       value={s.level * 100}
