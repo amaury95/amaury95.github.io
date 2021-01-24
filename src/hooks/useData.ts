@@ -13,5 +13,7 @@ export default function useData() {
   const { profile } = state.data;
   const template = state.data.templates[title];
 
+  document.title = `${profile.name} - ${template.profession}`;
+
   return { profile, template };
 }

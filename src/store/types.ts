@@ -28,6 +28,7 @@ export interface Data {
   profile: {
     name: string;
     image: string;
+    profession: string;
     info: {
       email: string;
       phone: string;

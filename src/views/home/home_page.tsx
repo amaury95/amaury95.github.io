@@ -5,9 +5,14 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   const {
     state: {
-      data: { templates },
+      data: {
+        templates,
+        profile: { name, profession },
+      },
     },
   } = useContext(Store);
+
+  document.title = `${name} - ${profession}`;
 
   return (
     <div>
