@@ -1,5 +1,5 @@
 import React, { FunctionComponent, ReactNode } from "react";
-import { Container, Typography } from "@material-ui/core";
+import { Box, Typography } from "@material-ui/core";
 import { Timeline, Icon } from "rsuite";
 import { Education as Title, Job } from "store/types";
 import useData from "hooks/useData";
@@ -60,7 +60,7 @@ const TimeLine = () => {
   const { template } = useData();
   console.log(template);
   return (
-    <Container>
+    <Box mx={2}>
       <StyledTimeline>
         <TitleTag icon={<Icon icon="target" size="2x" />}>
           Professional Summary
@@ -92,7 +92,7 @@ const TimeLine = () => {
         ))}
       </StyledTimeline>
       <br />
-    </Container>
+    </Box>
   );
 };
 
