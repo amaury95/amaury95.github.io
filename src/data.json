@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Amaury Diaz",
-    "image": "/picture.jpg",
+    "image": "/hire-me/picture.jpg",
     "profession": "Computer Scientist",
     "info": {
       "email": "amauryuh@gmail.com",
@@ -9,7 +9,7 @@
       "location": "Havana, Cuba",
       "website": {
         "title": "amaury95.github.io",
-        "ref": "https://amaury95.github.io"
+        "ref": "https://amaury95.github.io/hire-me"
       }
     }
   },
@@ -55,8 +55,8 @@
       ],
       "skills": {
         "Frameworks": [
-          { "name": "React Js", "level": 0.98 },
-          { "name": "Typescript", "level": 0.9 },
+          { "name": "Test Driven Development", "level": 0.98 },
+          { "name": "Server Side Rendering", "level": 0.9 },
           { "name": "Node Js", "level": 0.7 }
         ],
         "Tools": [
@@ -65,6 +65,13 @@
           { "name": "Node Js", "level": 0.7 }
         ]
       }
+    },
+    "blockchain-researcher": {
+      "profession": "Blockchain Researcher & Developer",
+      "summary": "This is a field that I like",
+      "titles": [],
+      "experience": [],
+      "skills": {}
     }
   }
 }
