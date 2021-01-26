@@ -14,9 +14,9 @@
     }
   },
   "templates": {
-    "frontend-developer": {
-      "profession": "React Developer",
-      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic voluptate error eos, consectetur voluptatum atque perferendis aperiam aliquid deleniti ab nihil dolor reiciendis sapiente quod debitis, labore autem excepturi!",
+    "fullstack-web": {
+      "profession": "Full-Stack Web Developer",
+      "summary": "Full Stack web developer with more than 5 years of experience developing small and medium scale web projects. Specialized in MERN stack with more than 4 years of experience working with ReactJS and relational and non-relational databases. Expert in Test Driven Development and agile methodologies. I aspire to be part of a multidisciplinary team where I have to push my reasoning and programming skills to the maximum. I am not afraid to learn new technologies or adapt to different environments and work methodologies. My biggest goal in life is to work and grow with professionals who are dedicated in their career and life. I hate wasting time.",
       "titles": [
         {
           "title": "Bachelor of Science: Computer Science",
@@ -29,40 +29,125 @@
       ],
       "experience": [
         {
-          "title": "React Developer",
+          "title": "MERN Stack Developer",
           "center": "University of Havana",
           "location": "Havana, Cuba",
-          "from": "September 2014",
-          "to": "June 2019",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic voluptate error eos, consectetur voluptatum atque perferendis aperiam aliquid deleniti ab nihil dolor reiciendis sapiente quod debitis, labore autem excepturi!",
+          "from": "September 2019",
+          "to": "Now",
+          "description": "Developer of the Research Web Platform of the University of Havana using MERN Stack, Electron and Docker",
           "details": [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Minima hic voluptate error eos, consectetur voluptatum."
+            "Used ReactJs, Server Side rendering with Next.js and Typescript.",
+            "Using MongoDB, ExpressJs and Apollo Server for backend.",
+            "Using Apollo Graphql and Apollo CLI for API communication.",
+            "Using React I18Next for internationalization and locale.",
+            "Behavior Driven Development Approach using Jest, Enzyme and SuperTest.",
+            "Using Electron react for desktop app generation.",
+            "Local deployment using Docker and Docker-Compose."
+          ]
+        },
+        {
+          "title": "Full-Stack Developer",
+          "center": "Freelancer",
+          "location": "Remote",
+          "from": "May 2020",
+          "to": "July 2020",
+          "description": "Full stack web developer in an indian startup that allows user to keep track of income and outcome from their integrated platforms accounts as Google Ads, Shopify, Click Funnels etc.",
+          "details": [
+            "Develop frontend using ReactJs, Typescript, Apollo Graphql and React Rainbow Library.",
+            "Backend using Golang libraries as chi-router, jwt, go-graphql.",
+            "Develop user authentication system from scratch using mix of browser local storage and browser cookies for store the signature of the JSON Web Token.",
+            "Develop integration mechanism for the balance platforms using OAuth protocol.",
+            "Deployment using Docker and Docker-Compose."
+          ]
+        },
+        {
+          "title": "Full-Stack Developer",
+          "center": "Freelancer",
+          "location": "Remote",
+          "from": "March 2020",
+          "to": "May 2020",
+          "description": "Full stack web developer in a small project that allows users to link domains with excel tables. The project was created using ReactJs and Golang.",
+          "details": [
+            "Develop frontend using ReactJs, Typescript and Reactstrap Library.",
+            "Backend using Ponzu CMS (A easy to use CMS build in Golang).",
+            "Deployment using Docker and Docker-Compose."
           ]
         },
         {
           "title": "React Developer",
-          "center": "University of Havana",
-          "location": "Havana, Cuba",
-          "from": "September 2014",
-          "to": "June 2019",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic voluptate error eos, consectetur voluptatum atque perferendis aperiam aliquid deleniti ab nihil dolor reiciendis sapiente quod debitis, labore autem excepturi!",
+          "center": "Joysonic",
+          "location": "Belgrade, Serbia",
+          "from": "November 2019",
+          "to": "March 2020",
+          "description": "Develop an Administration Backoffice using a custom ReactJs Template.",
           "details": [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Minima hic voluptate error eos, consectetur voluptatum."
+            "Develop administration panel using Admin Dashboard Pro React premium template from creative-tim.com.",
+            "Use Typescript as main development programming language.",
+            "Use and creation of React Hooks.",
+            "Use restful-react for API connections.",
+            "Deploy using Ngnix and Docker"
+          ]
+        },
+        {
+          "title": "Web Developer",
+          "center": "CubaISM",
+          "location": "Havana, Cuba",
+          "from": "December 2016",
+          "to": "October 2018",
+          "description": "Web Application Developer for a tourist services promotion company in Cuba.",
+          "details": [
+            "Develop web guides for Cuban turist services using Ruby on Rails.",
+            "Develop a Ruby on Rails multisite manager using Flask and Docker allowing the company reduce hosting costs and easy to deploy/manage websites."
           ]
         }
       ],
       "skills": {
+        "Languages": [
+          { "name": "JavaScript / ES6 / ES7", "level": 0.9 },
+          { "name": "Typescript", "level": 0.98 },
+          { "name": "HTML", "level": 1 },
+          { "name": "CSS / SASS", "level": 0.75 },
+          { "name": "Golang", "level": 1 }
+        ],
         "Frameworks": [
-          { "name": "Test Driven Development", "level": 0.98 },
-          { "name": "Server Side Rendering", "level": 0.9 },
-          { "name": "Node Js", "level": 0.7 }
+          { "name": "ReactJs", "level": 0.98 },
+          { "name": "NodeJs", "level": 0.8 },
+          { "name": "ExpressJs", "level": 1 }
+        ],
+        "Databases": [
+          { "name": "MongoDB", "level": 0.9 },
+          { "name": "ArangoDB", "level": 0.95 },
+          { "name": "Postgres", "level": 0.9 },
+          { "name": "MySQL", "level": 0.7 },
+          { "name": "SQLite", "level": 0.8 }
+        ],
+        "API Design": [
+          { "name": "REST", "level": 1 },
+          { "name": "GraphQL", "level": 1 },
+          { "name": "gRPC", "level": 1 }
         ],
         "Tools": [
-          { "name": "React Js", "level": 1 },
-          { "name": "Typescript", "level": 0.5 },
-          { "name": "Node Js", "level": 0.7 }
+          { "name": "Git", "level": 0.9 },
+          { "name": "Docker", "level": 0.85 },
+          { "name": "Docker Compose", "level": 1 }
+        ],
+        "Design Patterns": [
+          { "name": "MVC", "level": 0.95 },
+          { "name": "Flux", "level": 0.75 },
+          { "name": "Redux", "level": 1 },
+          { "name": "Observer", "level": 0.6 },
+          { "name": "Singleton", "level": 1 }
+        ],
+        "Methodologies": [
+          { "name": "Agile", "level": 1 },
+          { "name": "SCRUM", "level": 1 }
+        ],
+        "Testing": [
+          { "name": "Test Driven Development", "level": 1 },
+          { "name": "Jest", "level": 0.9 },
+          { "name": "Enzyme", "level": 0.9 },
+          { "name": "Cypress IO", "level": 0.5 },
+          { "name": "SuperTest", "level": 0.7 }
         ]
       }
     },
