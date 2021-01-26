@@ -7,7 +7,7 @@ import TimeLine from "./components/timeline";
 export const TemplatePage = () => (
   <Box mx={10} my={10}>
     <Container>
-      <Grid container>
+      <Grid container spacing={4}>
         <Grid item xs={12} md={8} justify="flex-start">
           <Header />
           <TimeLine />

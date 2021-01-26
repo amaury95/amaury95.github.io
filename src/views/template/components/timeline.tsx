@@ -30,7 +30,9 @@ const EducationTag = ({ item: title }: ItemProps<Title>) => (
     </Typography>
     <br />
 
-    <Typography variant="body2">{title.description}</Typography>
+    <Typography variant="body2" align="justify">
+      {title.description}
+    </Typography>
   </>
 );
 
@@ -44,7 +46,9 @@ const ExperienceTag = ({ item: experience }: ItemProps<Job>) => (
       {experience.from} - {experience.to}
     </Typography>
 
-    <Typography variant="body2">{experience.description}</Typography>
+    <Typography variant="body2" align="justify">
+      {experience.description}
+    </Typography>
 
     <List>
       {experience.details.map((d, k) => (
@@ -66,7 +70,9 @@ const TimeLine = () => {
           Professional Summary
         </TitleTag>
         <Timeline.Item>
-          <Typography variant="body2">{template.summary}</Typography>
+          <Typography variant="body2" align="justify">
+            {template.summary}
+          </Typography>
         </Timeline.Item>
 
         {template.experience.length > 0 && (

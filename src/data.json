@@ -8,7 +8,7 @@
       "phone": "+53 54754788",
       "location": "Havana, Cuba",
       "website": {
-        "title": "amaury95.github.io",
+        "title": "amaury95.github.io/hire-me",
         "ref": "https://amaury95.github.io/hire-me"
       }
     }
@@ -121,15 +121,14 @@
           { "name": "MySQL", "level": 0.7 },
           { "name": "SQLite", "level": 0.8 }
         ],
-        "API Design": [
+        "API": [
           { "name": "REST", "level": 1 },
           { "name": "GraphQL", "level": 1 },
           { "name": "gRPC", "level": 1 }
         ],
         "Tools": [
           { "name": "Git", "level": 0.9 },
-          { "name": "Docker", "level": 0.85 },
-          { "name": "Docker Compose", "level": 1 }
+          { "name": "Docker", "level": 0.85 }
         ],
         "Design Patterns": [
           { "name": "MVC", "level": 0.95 },
@@ -150,13 +149,6 @@
           { "name": "SuperTest", "level": 0.7 }
         ]
       }
-    },
-    "blockchain-researcher": {
-      "profession": "Blockchain Researcher & Developer",
-      "summary": "This is a field that I like",
-      "titles": [],
-      "experience": [],
-      "skills": {}
     }
   }
 }
