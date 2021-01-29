@@ -2,7 +2,7 @@ import { Action } from "./actions";
 
 export interface Education {
   from: string;
-  to: string;
+  to?: string;
   title: string;
   center: string;
   location: string;
@@ -14,7 +14,7 @@ export interface Job {
   center: string;
   location: string;
   from: string;
-  to: string;
+  to?: string;
   description: string;
   details: string[];
 }

@@ -33,7 +33,6 @@
           "center": "University of Havana",
           "location": "Havana, Cuba",
           "from": "September 2019",
-          "to": "Now",
           "description": "Developer of the Research Web Platform of the University of Havana using MERN Stack, Electron and Docker",
           "details": [
             "Used ReactJs, Server Side rendering with Next.js and Typescript.",
@@ -75,16 +74,16 @@
         },
         {
           "title": "React Developer",
-          "center": "Joysonic",
+          "center": "Copsonic",
           "location": "Belgrade, Serbia",
-          "from": "November 2019",
+          "from": "September 2019",
           "to": "March 2020",
           "description": "Develop an Administration Backoffice using a custom ReactJs Template.",
           "details": [
             "Develop administration panel using Admin Dashboard Pro React premium template from creative-tim.com.",
             "Use Typescript as main development programming language.",
             "Use and creation of React Hooks.",
-            "Use restful-react for API connections.",
+            "Use restful-react for API communication.",
             "Deploy using Ngnix and Docker"
           ]
         },
@@ -169,7 +168,6 @@
           "center": "University of Havana",
           "location": "Havana, Cuba",
           "from": "September 2019",
-          "to": "Now",
           "description": "Worked mainly as Blockchain Developer in several projects designed by the University of Havana with the objective of making improvements in the cuban economic system. Research about Blockchain common Use Cases and Applications.",
           "details": [
             "Create and test chaincode for a Supply Chain using Hyperledger Fabric and Golang.",

@@ -5,6 +5,8 @@ import { Education as Title, Job } from "store/types";
 import useData from "hooks/useData";
 import StyledTimeline from "components/StyledTimeline";
 import List from "components/StyledList";
+import Duration from "components/Duration";
+
 interface TitleProps {
   icon?: ReactNode;
 }
@@ -26,7 +28,8 @@ const EducationTag = ({ item: title }: ItemProps<Title>) => (
       {title.center} - {title.location}
     </Typography>
     <Typography variant="caption" paragraph>
-      {title.from} - {title.to}
+      {title.from} - {title.to || "Now"}{" "}
+      {<Duration from={title.from} to={title.to} />}
     </Typography>
     <br />
 
@@ -43,7 +46,8 @@ const ExperienceTag = ({ item: experience }: ItemProps<Job>) => (
       {experience.center} - {experience.location}
     </Typography>
     <Typography variant="caption" paragraph>
-      {experience.from} - {experience.to}
+      {experience.from} - {experience.to || "Now"}{" "}
+      {<Duration from={experience.from} to={experience.to} />}
     </Typography>
 
     <Typography variant="body2" align="justify">
