@@ -164,6 +164,18 @@
       ],
       "experience": [
         {
+          "title": "Hyperledger Fabric Engineer (Golang)",
+          "center": "Privi Chain",
+          "location": "Remote",
+          "from": "April 2021",
+          "description": "Mainly as architect of the chaincode development and the security of the platform",
+          "details": [
+            "Improve the project structure of the Hyperledger Fabric Chaincodes and setup testing suite using state of the art tools.",
+            "Design of the security mechanism for the users signature.",
+            "Improve over the legacy codebase with more eficient data structures."
+          ]
+        },
+        {
           "title": "Blockchain Researcher and Developer",
           "center": "University of Havana",
           "location": "Havana, Cuba",
