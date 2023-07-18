@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hire-me/static/css/main.19bbd071.chunk.css",
+    "main.js": "/hire-me/static/js/main.d875c8f9.chunk.js",
+    "main.js.map": "/hire-me/static/js/main.d875c8f9.chunk.js.map",
+    "runtime-main.js": "/hire-me/static/js/runtime-main.11c89fea.js",
+    "runtime-main.js.map": "/hire-me/static/js/runtime-main.11c89fea.js.map",
+    "static/css/2.a0b9a8b7.chunk.css": "/hire-me/static/css/2.a0b9a8b7.chunk.css",
+    "static/js/2.676d0cdb.chunk.js": "/hire-me/static/js/2.676d0cdb.chunk.js",
+    "static/js/2.676d0cdb.chunk.js.map": "/hire-me/static/js/2.676d0cdb.chunk.js.map",
+    "static/js/3.1530fc58.chunk.js": "/hire-me/static/js/3.1530fc58.chunk.js",
+    "static/js/3.1530fc58.chunk.js.map": "/hire-me/static/js/3.1530fc58.chunk.js.map",
+    "index.html": "/hire-me/index.html",
+    "static/css/2.a0b9a8b7.chunk.css.map": "/hire-me/static/css/2.a0b9a8b7.chunk.css.map",
+    "static/css/main.19bbd071.chunk.css.map": "/hire-me/static/css/main.19bbd071.chunk.css.map",
+    "static/js/2.676d0cdb.chunk.js.LICENSE.txt": "/hire-me/static/js/2.676d0cdb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11c89fea.js",
+    "static/css/2.a0b9a8b7.chunk.css",
+    "static/js/2.676d0cdb.chunk.js",
+    "static/css/main.19bbd071.chunk.css",
+    "static/js/main.d875c8f9.chunk.js"
+  ]
+}
