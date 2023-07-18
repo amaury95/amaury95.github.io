@@ -1,14 +1,14 @@
 {
   "profile": {
     "name": "Amaury Diaz",
-    "image": "/hire-me/picture.jpg",
+    "image": "/hire-me/photo.jpeg",
     "profession": "Computer Scientist",
     "info": {
       "email": "amauryuh@gmail.com",
-      "phone": "+53 54754788",
-      "location": "Havana, Cuba",
+      "phone": "+49 1721745934",
+      "location": "Frankfurt, Germany",
       "website": {
-        "title": "amaury95.github.io/hire-me",
+        "title": "amaury95.github.io",
         "ref": "https://amaury95.github.io/hire-me"
       }
     }
@@ -16,7 +16,7 @@
   "templates": {
     "fullstack-web": {
       "profession": "Full-Stack Web Developer",
-      "summary": "Full Stack web developer with more than 5 years of experience developing small and medium scale web projects. Specialized in MERN stack with more than 4 years of experience working with ReactJS and relational and non-relational databases. Expert in Test Driven Development and agile methodologies. I aspire to be part of a multidisciplinary team where I have to push my reasoning and programming skills to the maximum. I am not afraid to learn new technologies or adapt to different environments and work methodologies. My biggest goal in life is to work and grow with professionals who are dedicated in their career and life. I hate wasting time.",
+      "summary": "Full Stack web developer with more than 5 years of experience developing small and medium scale web projects. Specialized in MERN stack with more than 4 years of experience working with ReactJS and relational and non-relational databases. Expert in Test Driven Development and agile methodologies. I aspire to be part of a multidisciplinary team where I have to push my reasoning and programming skills to the maximum. I am not afraid to learn new technologies or adapt to different environments and work methodologies. My biggest goal in life is to work and grow with professionals who are dedicated in their career.",
       "titles": [
         {
           "title": "Bachelor of Science: Computer Science",
@@ -24,15 +24,41 @@
           "location": "Havana, Cuba",
           "from": "September 2014",
           "to": "June 2019",
-          "description": ""
+          "description": "Degree Thesis on creation of a consensus algorithm capable of guaranteeing the security and traceability of Bitcoin Protocol without the use of Proof of Work, focused on solving centralisation, scalability and environmental problems. The result was praised by the thesis tribunal obtaining the maximum qualification."
         }
       ],
       "experience": [
+        {
+          "title": "Software Developer",
+          "center": "micobo GmbH",
+          "location": "Frankfurt, Germany",
+          "from": "September 2021",
+          "description": "",
+          "details": [
+            "Develop PoC for Security Tokens integration with DEXs like Uniswap.",
+            "Design and develop micobo DApp wallet.",
+            "Support Frontend team in DApp development."
+          ]
+        },
+        {
+          "title": "Full Stack Engineer - Part Time",
+          "center": "WikiML",
+          "location": "Remote",
+          "from": "May 2021",
+          "description": "Senior Full Stack engineer in charge of the architecture design and tech stack of the platform.",
+          "details": [
+            "Setup GraphQL API in Ruby on Rails.",
+            "Setup Github actions for CI/CD pipeline.",
+            "Deploy services to Fly.io.",
+            "Lead the Frontend team in the integration of Apollo GraphQL and setup Unit Tests."
+          ]
+        },
         {
           "title": "MERN Stack Developer",
           "center": "University of Havana",
           "location": "Havana, Cuba",
           "from": "September 2019",
+          "to": "August 2021",
           "description": "Developer of the Research Web Platform of the University of Havana using MERN Stack, Electron and Docker",
           "details": [
             "Used ReactJs, Server Side rendering with Next.js and Typescript.",
@@ -50,25 +76,12 @@
           "location": "Remote",
           "from": "May 2020",
           "to": "July 2020",
-          "description": "Full stack web developer in an indian startup that allows user to keep track of income and outcome from their integrated platforms accounts as Google Ads, Shopify, Click Funnels etc.",
+          "description": "Full stack web developer in an indian startup called Profito that allows user to keep track of income and outcome from their integrated platforms accounts as Google Ads, Shopify, Click Funnels etc.",
           "details": [
             "Develop frontend using ReactJs, Typescript, Apollo Graphql and React Rainbow Library.",
             "Backend using Golang libraries as chi-router, jwt, go-graphql.",
             "Develop user authentication system from scratch using mix of browser local storage and browser cookies for store the signature of the JSON Web Token.",
             "Develop integration mechanism for the balance platforms using OAuth protocol.",
-            "Deployment using Docker and Docker-Compose."
-          ]
-        },
-        {
-          "title": "Full-Stack Developer",
-          "center": "Freelancer",
-          "location": "Remote",
-          "from": "March 2020",
-          "to": "May 2020",
-          "description": "Full stack web developer in a small project that allows users to link domains with excel tables. The project was created using ReactJs and Golang.",
-          "details": [
-            "Develop frontend using ReactJs, Typescript and Reactstrap Library.",
-            "Backend using Ponzu CMS (A easy to use CMS build in Golang).",
             "Deployment using Docker and Docker-Compose."
           ]
         },
@@ -102,16 +115,25 @@
       ],
       "skills": {
         "Languages": [
-          { "name": "JavaScript / ES6 / ES7", "level": 0.9 },
           { "name": "Typescript", "level": 0.98 },
+          { "name": "JavaScript / ES6 / ES7", "level": 0.9 },
           { "name": "HTML", "level": 1 },
           { "name": "CSS / SASS", "level": 0.75 },
-          { "name": "Golang", "level": 1 }
+          { "name": "Golang", "level": 1 },
+          { "name": "Python", "level": 0.98 }
         ],
         "Frameworks": [
+          { "name": "NextJs", "level": 0.9 },
           { "name": "ReactJs", "level": 0.98 },
+          { "name": "React Native", "level": 0.8 },
           { "name": "NodeJs", "level": 0.8 },
           { "name": "ExpressJs", "level": 1 }
+        ],
+        "UI Frameworks": [
+          { "name": "EvergreenUI", "level": 1 },
+          { "name": "MaterialUI", "level": 0.9 },
+          { "name": "Chakra", "level": 0.9 },
+          { "name": "FluentUI", "level": 0.8 }
         ],
         "Databases": [
           { "name": "MongoDB", "level": 0.9 },
@@ -164,10 +186,25 @@
       ],
       "experience": [
         {
+          "title": "Software Developer",
+          "center": "micobo GmbH",
+          "location": "Frankfurt, Germany",
+          "from": "September 2021",
+          "description": "",
+          "details": [
+            "Develop PoC for Security Tokens integration with DEXs like Uniswap.",
+            "Design of Meta-Transaction solution for gasless interactions for non-blockchain users.",
+            "Support Frontend team in DApp development.",
+            "Created question's set and conducted recruitment process for onboarding new blockchain developers to the company.",
+            "Detect and fix critical bugs in the core platform."
+          ]
+        },
+        {
           "title": "Hyperledger Fabric Engineer (Golang)",
           "center": "Privi Chain",
           "location": "Remote",
           "from": "April 2021",
+          "to": "August 2021",
           "description": "Mainly as architect of the chaincode development and the security of the platform",
           "details": [
             "Improve the project structure of the Hyperledger Fabric Chaincodes and setup testing suite using state of the art tools.",
@@ -180,6 +217,7 @@
           "center": "University of Havana",
           "location": "Havana, Cuba",
           "from": "September 2019",
+          "to": "August 2021",
           "description": "Worked mainly as Blockchain Developer in several projects designed by the University of Havana with the objective of making improvements in the cuban economic system. Research about Blockchain common Use Cases and Applications.",
           "details": [
             "Create and test chaincode for a Supply Chain using Hyperledger Fabric and Golang.",
